@@ -20,5 +20,11 @@ namespace CS_Gym
             Operate  operate  = new Operate();
             operate.Init();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Meet2_foreach meet2_Foreach = new Meet2_foreach();
+            meet2_Foreach.RunMyItems();
+        }
     }
 }
