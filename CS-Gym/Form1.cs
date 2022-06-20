@@ -26,5 +26,11 @@ namespace CS_Gym
             Meet2_foreach meet2_Foreach = new Meet2_foreach();
             meet2_Foreach.RunMyItems();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Meet3_RefVal meet3_RefVal = new Meet3_RefVal();
+            meet3_RefVal.Val();
+        }
     }
 }
