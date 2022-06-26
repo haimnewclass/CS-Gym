@@ -16,7 +16,11 @@ namespace CS_Gym
             stru.a = 123;
         }
 
+        Meet4_Linq_1.Product product = new Meet4_Linq_1.Product();
+
     }
+
+    
 
     // located on stack
     public struct Meet3_TheRealStract

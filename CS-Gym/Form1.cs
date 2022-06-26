@@ -32,5 +32,23 @@ namespace CS_Gym
             Meet3_RefVal meet3_RefVal = new Meet3_RefVal();
             meet3_RefVal.Val();
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Meet4_Linq_1 meet4_Linq_1 = new Meet4_Linq_1();
+            meet4_Linq_1.Run3();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            Meet5_ExtensionMethods meet5_ExtensionMethods = new Meet5_ExtensionMethods();
+            meet5_ExtensionMethods.Run();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            Meet5_GarbageCollector meet5_GarbageCollector = new Meet5_GarbageCollector();   
+
+        }
     }
 }
