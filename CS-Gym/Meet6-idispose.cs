@@ -45,10 +45,7 @@ namespace CS_Gym
                 makeBigRequest1.Operate();
             }
 
-            using (var f = System.IO.File.Open)
-            {
-                
-            }
+            
 
             
 
