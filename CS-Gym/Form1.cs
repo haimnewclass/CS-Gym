@@ -50,5 +50,24 @@ namespace CS_Gym
             Meet5_GarbageCollector meet5_GarbageCollector = new Meet5_GarbageCollector();   
 
         }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            Meet6_check meet6_Check = new Meet6_check();
+            meet6_Check.Run();
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            Meet6_isas meet6_Isas = new Meet6_isas();
+            meet6_Isas.Run();
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            Meet6_idispose meet6_Idispose = new Meet6_idispose();
+            meet6_Idispose.Run();
+
+        }
     }
 }
