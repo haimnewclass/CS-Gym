@@ -69,5 +69,11 @@ namespace CS_Gym
             meet6_Idispose.Run();
 
         }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            Meet7_type meet7_Type = new Meet7_type();
+            meet7_Type.Run1();
+        }
     }
 }
