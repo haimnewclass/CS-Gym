@@ -75,5 +75,11 @@ namespace CS_Gym
             Meet7_type meet7_Type = new Meet7_type();
             meet7_Type.Run1();
         }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            Meet8_Generics meet8_Generics = new Meet8_Generics();
+            meet8_Generics.Run();
+        }
     }
 }
